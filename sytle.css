@@ -1,0 +1,30 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 50px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.title-image {
+  margin-top: 70px;
+  
+}
+.container-fluid {
+  padding: 7% 5%;
+}
+.coloured-section {
+  background-color: rgb(0, 110, 255);
+  color: white;
+}
+.btn {
+  margin: 5% 3% 5% 0;
+}
