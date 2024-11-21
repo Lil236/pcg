@@ -12,109 +12,214 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
    
-    <section id="title" class="coloured-section">
-         <!-- Navigation Bar -->
-        <div class="container-fluid">
-            <nav class="navbar navbar-dark bg-primary fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Presbyterian Church of Ghana</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                          </a>
-                          <ul class="dropdown-menu dropdown-menu-primary">
-                            <li><a class="dropdown-item" href="#">Churchs around you</a></li>
-                            <li><a class="dropdown-item" href="#">Hymnals</a></li>
-                            <li>
-                              <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Congregations</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+  <section id="title" class="coloured-section">
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-sm  navbar-dark">
+        <a class="navbar-brand" href="">PCG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Gallary</a>
+            </li>
+          </ul>
         </div>
-   
-          <!-- Home Page -->
-        
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="big-heading text-white">Welcome to Presbyterian Church Of Ghana</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat incidunt nihil doloremque eveniet eum labore consectetur, quae voluptatibus rem impedit. Rerum, veniam magni molestiae amet asperiores esse reiciendis. Iste, a!</p>
-              <button type="button" class="btn btn-light btn-lg">Location</button>
-              <button type="button" class="btn btn-outline-light btn-lg">Visit for more</button>
-            </div>
-            <div class="col-md-6">
-              <img class="title-image" src="Presbyterian_Church_of_Ghana_Crest.png" alt="" width="300">
-            </div>
-          </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="big-heading">Presbyterian Church Of Ghana</h1>
+          <button type="button" class="btn btn-dark btn-lg">Locations</button>
+          <button type="button" class="btn btn-outline-light btn-lg">Visit</button>
         </div>
-    </section>
-    <p class="text">IMAGES OF THE CHURCH</p>
-    <div id="carouselExampleCaptions" class="carousel slide text-secondary-emphasis image">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="col-md-6">
+          <img class="title-image" src="Presbyterian_Church_of_Ghana_Crest.png" alt="">
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features" class="white-section">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          
+          <h3 class="feature-title">Caring Leaders.</h3>
+          <p>We have a lot of caring leaders in Ghana.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+         
+          <h3 class="feature-title">Choir Of The Church</h3>
+          <p>Our choir has the bst voice when singing.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          
+          <h3 class="feature-title">Our Service Leaders.</h3>
+          <p>We have well trained service leaders around the Globe and in Ghana.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials" class="coloured-section">
+
+    <div id="carouselExample" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/pcg1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Pastors around the globe</h5>
-            <p>We have a lot of churchs in this 21st centuary</p>
-          </div>
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">One of the greastest media in the world</h2>
+          <img class="testimonial-image" src="images/pcg8.jpg" alt="">
+          <em>PCG TV, Ghana</em>
         </div>
-        <div class="carousel-item">
-          <img src="images/pcg7.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Our Youth</h5>
-            <p>Our most peaceful Youth In Ghana.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/pcg3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>The Church Choir</h5>
-            <p>We have one of the nicest voice in our church</p>
-          </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">They teach us to be God caring</h2>
+          <img class="testimonial-image" src="images/pcg7.jpg" alt="">
+          <em>Angel, Accra</em>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+      <!-- </div> -->
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <!-- <section id="press" class="coloured-section">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section> -->
+
+
+  <!-- Pricing -->
+
+  <section id="pricing" class="white-section">
+
+    <h2 class="section-heading">Churchs In Ghana</h2>
+    <p>We have various churchs in Ghana</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Accra</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Open</h2>
+            <p>Every Sunday</p>
+            <p>Contact: 04029039343</p>
+            <p>Lcation: juasbsab</p>
+            <button type="button" class="btn btn-block btn-lg btn-outline-dark">Location</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Kumasi</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Open</h2>
+            <p>Every Sunday</p>
+            <p>Contact: 09393823939</p>
+            <p>Location: fopsajd</p>
+            <button type="button" class="btn btn-block btn-lg btn-dark">Location</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Cape Coast</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Open</h2>
+            <p>Every Sunday</p>
+            <p>Contact: 930382238</p>
+            <p>Location: hoshjwifsn</p>
+            
+            <button type="button" class="btn btn-block btn-lg btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
     </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="coloured-section">
+    <div class=container-fluid>
+
+
+      <h1 class="big-heading" text-align="center">Visit Our Church And Be Blessed</h1>
+      <button type="button" class="btn btn-dark btn-lg">Locations</button>
+      <button type="button" class="btn btn-outline-light btn-lg">Visit</button>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer" class="white-section">
+    <div class="container-fluid">
+      <div class="socail-icon">
+       <i class='bx bxl-facebook-circle'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-whatsapp'></i>
+        <i class='bx bxl-instagram'></i>
+      </div>
+
+
+      <p>© Copyright 2024 PCG</p>
+    </div>
+  </footer>
       
            
 
